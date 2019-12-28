@@ -8,6 +8,10 @@
   },
   "author": "Victor Ponamarev",
   "license": "ISC",
+  "browsersList": [
+    "last 2 chrome versions",
+    "last 2 firefox versions"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
