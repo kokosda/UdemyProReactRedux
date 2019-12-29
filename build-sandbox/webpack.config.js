@@ -30,6 +30,14 @@ module.exports = {
                         name: "[name].[ext]"
                     }
                 }]
+            },
+
+            {
+                test: /\.(css)$/,
+                use: [
+                    { loader: 'style-loader' },
+                    { loader: 'css-loader' }
+                ]
             }
         ]
     }
