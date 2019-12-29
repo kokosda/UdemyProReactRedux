@@ -31,12 +31,21 @@ module.exports = {
                     }
                 }]
             },
-
+            // Loading CSS
             {
                 test: /\.(css)$/,
                 use: [
                     { loader: 'style-loader' },
                     { loader: 'css-loader' }
+                ]
+            },
+            // Loading SASS/SCSS
+            {
+                test: /\.(s[ca]ss)$/,
+                use: [
+                    { loader: 'style-loader' },
+                    { loader: 'css-loader' },
+                    { loader: 'sass-loader' }
                 ]
             }
         ]
