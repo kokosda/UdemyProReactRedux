@@ -4,6 +4,6 @@ import css from './main.scss';
 
 console.log(css.toString());
 
-const App = () => <p>Hello</p>;
+const App = () => <p>This is WebPack React App</p>;
 
 ReactDOM.render(<App/>, document.getElementById('root'));
