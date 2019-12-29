@@ -2,9 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Build Sandbox</title>
+        <title><%= htmlWebpackPlugin.options.title %></title>
     </head>
     <body>
+        <div>
+            Built at <%= htmlWebpackPlugin.options.buildDate %>
+        </div>
         <div id="root"></div>
     </body>
 </html>
